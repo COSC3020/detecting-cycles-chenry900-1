@@ -34,5 +34,6 @@ function search(node,visited,graph,cycle) {
             }
         }
         cycle[node] = false;
-        return false;
+    }
+    return false;
 }
