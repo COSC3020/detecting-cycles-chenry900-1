@@ -38,3 +38,7 @@ function search(node,visited,graph,cycle) {
     }
     return false;
 }
+
+
+module.exports = { hasCycle }; //copilot says i need to add this here to get the test code to work properly
+
