@@ -18,6 +18,7 @@ function hasCycle(graph) {
     return false;
 }
 
+
 function search(node,visited,graph,cycle) {
     if (visited[node] == false) {
         visited[node] = true;
